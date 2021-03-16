@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/math1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="75dp"
+        android:text="Addition"
+        app:backgroundTint="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:text="SUbtraction"
+        app:backgroundTint="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/buttonMul"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:text="Multiplication"
+        app:backgroundTint="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="#009688"
+        android:gravity="center"
+        android:text="Made with ❤ by Naren"
+        android:textColor="#FF9800"
+        android:textSize="24sp" />
+</LinearLayout>
