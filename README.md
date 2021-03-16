@@ -1,2 +1,2 @@
 # MathAppProject
-Math Quiz Application using Android
+Math Quiz Android Application using Java
